@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "934dbf27-5b13-4be9-992c-a6264d0a607d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 76.2 90.17)
+		(size 57.15 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18aed268-9190-456d-b983-0438bc709a2a")
+		(property "Sheetname" "Display"
+			(at 76.2 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 76.2 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "weather_statio"
+				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 38.1)
+		(size 48.26 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b524250-e61e-417a-a8f6-4d01fda9d4b0")
+		(property "Sheetname" "Microcontroller"
+			(at 134.62 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 134.62 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "weather_statio"
+				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 39.37)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b80aed7d-1ea3-40c8-9a59-917a6bf113d7")
+		(property "Sheetname" "Power supply"
+			(at 38.1 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 38.1 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "weather_statio"
+				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 50.8)
+		(size 38.1 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e42933ad-d6ea-46d3-a44b-420d06a9a31d")
+		(property "Sheetname" "Connectors"
+			(at 215.9 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 215.9 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "weather_statio"
+				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
