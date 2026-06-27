@@ -5,8 +5,118 @@
 	(uuid "934dbf27-5b13-4be9-992c-a6264d0a607d")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 165.1 69.85) (xy 203.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c804d6-4867-4d21-9fba-1f063c5939c5")
+	)
+	(wire
+		(pts
+			(xy 76.2 96.52) (xy 114.3 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a5e6f6-efe2-4125-9b4f-7d43c4e89aff")
+	)
+	(wire
+		(pts
+			(xy 165.1 73.66) (xy 203.2 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b863746-9ba9-4ab6-803d-8c780988a857")
+	)
+	(wire
+		(pts
+			(xy 76.2 92.71) (xy 114.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696f4371-e6cc-438b-a8cb-e5ab4b077300")
+	)
+	(wire
+		(pts
+			(xy 76.2 73.66) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb05dfe-29cf-4ca3-a315-eedfe6114b5a")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de4ba04-1bd9-433f-881f-828636b28035")
+	)
+	(wire
+		(pts
+			(xy 76.2 85.09) (xy 114.3 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9486bf98-7ee6-4e96-95ec-0efc70c13e8b")
+	)
+	(wire
+		(pts
+			(xy 165.1 77.47) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976c3d28-e984-423b-8585-0527762ab729")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 203.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987a3711-142d-4f4c-a8fc-5c793f87ff50")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.85) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3491a1-c991-49bc-a551-4d923201e604")
+	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 203.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1fa117-42f0-4241-b9e0-e8d4f0beb697")
+	)
 	(sheet
-		(at 76.2 90.17)
+		(at 203.2 63.5)
 		(size 57.15 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +132,7 @@
 		)
 		(uuid "18aed268-9190-456d-b983-0438bc709a2a")
 		(property "Sheetname" "Display"
-			(at 76.2 89.4584 0)
+			(at 203.2 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +141,7 @@
 			)
 		)
 		(property "Sheetfile" "display.kicad_sch"
-			(at 76.2 127.5846 0)
+			(at 203.2 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,8 +149,58 @@
 				(justify left top)
 			)
 		)
+		(pin "display_cs" input
+			(at 203.2 69.85 180)
+			(uuid "baaa7742-75fd-453d-aee7-cc87b6aaeeb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "display_extcomin" input
+			(at 203.2 81.28 180)
+			(uuid "abb8ae6e-97dd-411e-93f4-a7127bfb2f8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "display_extmode" input
+			(at 203.2 85.09 180)
+			(uuid "9a87cd0d-9d3c-4926-96f7-a82e7f622890")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "display_mosi" input
+			(at 203.2 77.47 180)
+			(uuid "07f2db05-b32b-4ba1-8139-deeba38f00b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "display_sclk" input
+			(at 203.2 73.66 180)
+			(uuid "3d39478b-7f1f-4852-9dda-ab078a8fbe0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "weather_statio"
+			(project "weather_station"
 				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d"
 					(page "4")
 				)
@@ -48,8 +208,8 @@
 		)
 	)
 	(sheet
-		(at 134.62 38.1)
-		(size 48.26 34.29)
+		(at 114.3 63.5)
+		(size 50.8 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +224,7 @@
 		)
 		(uuid "2b524250-e61e-417a-a8f6-4d01fda9d4b0")
 		(property "Sheetname" "Microcontroller"
-			(at 134.62 37.3884 0)
+			(at 114.3 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +233,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 134.62 72.9746 0)
+			(at 114.3 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,8 +241,118 @@
 				(justify left top)
 			)
 		)
+		(pin "diaply_cs" output
+			(at 165.1 69.85 0)
+			(uuid "4f636e4f-368d-4dd3-aacd-ea153f3e8e4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "display_extcomin" output
+			(at 165.1 81.28 0)
+			(uuid "44dec2d4-7377-46de-a6c1-ddebfac9857d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "display_extmode" output
+			(at 165.1 85.09 0)
+			(uuid "612444c1-82f6-4001-ad06-208e617334fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "display_mosi" output
+			(at 165.1 77.47 0)
+			(uuid "d342d896-0b6f-4afe-af00-5d4cb946ac1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "display_sck" output
+			(at 165.1 73.66 0)
+			(uuid "75573c90-f63e-4b9a-b887-e8d9d98cf4c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sensor_1_rx" input
+			(at 114.3 81.28 180)
+			(uuid "07b597d9-ec88-455b-a882-eb4b122336a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "sensor_1_tx" output
+			(at 114.3 85.09 180)
+			(uuid "19cc98ee-7ecd-450e-acfb-f6792144f95f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "sensor_2_rx" input
+			(at 114.3 92.71 180)
+			(uuid "8a6fff42-d2c1-48c3-aee1-d9f0e55d22b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "sensor_2_tx" output
+			(at 114.3 96.52 180)
+			(uuid "78832fa7-6053-4a8c-9cfa-69f772f5811a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "usb_dm" bidirectional
+			(at 114.3 69.85 180)
+			(uuid "f011e6e7-b031-49df-bb0a-65275bd5b430")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "usb_dp" bidirectional
+			(at 114.3 73.66 180)
+			(uuid "416ad19d-0f81-4457-99ff-46167f2d588a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "weather_statio"
+			(project "weather_station"
 				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d"
 					(page "3")
 				)
@@ -90,7 +360,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 39.37)
+		(at 38.1 25.4)
 		(size 38.1 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +376,7 @@
 		)
 		(uuid "b80aed7d-1ea3-40c8-9a59-917a6bf113d7")
 		(property "Sheetname" "Power supply"
-			(at 38.1 38.6584 0)
+			(at 38.1 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +385,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 38.1 64.0846 0)
+			(at 38.1 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -124,7 +394,7 @@
 			)
 		)
 		(instances
-			(project "weather_statio"
+			(project "weather_station"
 				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d"
 					(page "2")
 				)
@@ -132,8 +402,8 @@
 		)
 	)
 	(sheet
-		(at 215.9 50.8)
-		(size 38.1 50.8)
+		(at 38.1 63.5)
+		(size 38.1 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -148,7 +418,7 @@
 		)
 		(uuid "e42933ad-d6ea-46d3-a44b-420d06a9a31d")
 		(property "Sheetname" "Connectors"
-			(at 215.9 50.0884 0)
+			(at 38.1 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +427,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 215.9 102.1846 0)
+			(at 38.1 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,8 +435,68 @@
 				(justify left top)
 			)
 		)
+		(pin "sensor_1_rx" output
+			(at 76.2 81.28 0)
+			(uuid "cd84296c-34c3-4eb9-b739-d4f0e74b5e05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sensor_1_tx" input
+			(at 76.2 85.09 0)
+			(uuid "73f5ea4b-58e2-4276-a4e1-5e52cd8e7d40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sensor_2_rx" output
+			(at 76.2 92.71 0)
+			(uuid "e274b0eb-bec3-4eb4-94a3-d42c68cf018c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sensor_2_tx" input
+			(at 76.2 96.52 0)
+			(uuid "18363043-9db4-451f-a6af-ae3317d22ccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "usb_dm" bidirectional
+			(at 76.2 69.85 0)
+			(uuid "0e57db72-c818-4df2-9d8a-32d5c7471f9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "usb_dp" bidirectional
+			(at 76.2 73.66 0)
+			(uuid "4ebf9da4-a1db-4e48-a9a0-1afafd7585df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
-			(project "weather_statio"
+			(project "weather_station"
 				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d"
 					(page "5")
 				)
