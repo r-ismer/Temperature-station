@@ -3042,7 +3042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "540de9ae-9842-49a6-ba01-c193ea11ecb7")
-		(property "Reference" "J2"
+		(property "Reference" "J41"
 			(at 228.6 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3112,7 +3112,7 @@
 		(instances
 			(project "weather_station"
 				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d/e42933ad-d6ea-46d3-a44b-420d06a9a31d"
-					(reference "J2")
+					(reference "J41")
 					(unit 1)
 				)
 			)
@@ -3442,7 +3442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87f83da7-d82d-4bb0-ba11-18431fa85aad")
-		(property "Reference" "J3"
+		(property "Reference" "J42"
 			(at 228.6 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3512,7 +3512,7 @@
 		(instances
 			(project "weather_station"
 				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d/e42933ad-d6ea-46d3-a44b-420d06a9a31d"
-					(reference "J3")
+					(reference "J42")
 					(unit 1)
 				)
 			)
@@ -3689,7 +3689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d0165b4-8c1d-4693-8107-0420ae4c5726")
-		(property "Reference" "U1"
+		(property "Reference" "U40"
 			(at 124.8411 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3768,7 +3768,7 @@
 		(instances
 			(project "weather_station"
 				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d/e42933ad-d6ea-46d3-a44b-420d06a9a31d"
-					(reference "U1")
+					(reference "U40")
 					(unit 1)
 				)
 			)
@@ -3942,7 +3942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4d5fd5d-e9e5-41fc-9f00-9da855ed98a6")
-		(property "Reference" "J5"
+		(property "Reference" "J40"
 			(at 69.85 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4049,7 +4049,7 @@
 		(instances
 			(project "weather_station"
 				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d/e42933ad-d6ea-46d3-a44b-420d06a9a31d"
-					(reference "J5")
+					(reference "J40")
 					(unit 1)
 				)
 			)

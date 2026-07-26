@@ -1190,7 +1190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c86dfff0-e07e-479d-a754-74be5e123062")
-		(property "Reference" "U2"
+		(property "Reference" "U10"
 			(at 76.2 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1256,7 +1256,7 @@
 		(instances
 			(project "weather_station"
 				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d/b80aed7d-1ea3-40c8-9a59-917a6bf113d7"
-					(reference "U2")
+					(reference "U10")
 					(unit 1)
 				)
 			)

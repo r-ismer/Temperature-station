@@ -1651,7 +1651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b8b8f61-047c-4e80-81a6-95e9cda36772")
-		(property "Reference" "J1"
+		(property "Reference" "J30"
 			(at 100.965 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1737,7 +1737,7 @@
 		(instances
 			(project "weather_station"
 				(path "/934dbf27-5b13-4be9-992c-a6264d0a607d/18aed268-9190-456d-b983-0438bc709a2a"
-					(reference "J1")
+					(reference "J30")
 					(unit 1)
 				)
 			)
