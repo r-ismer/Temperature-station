@@ -1766,7 +1766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 173.99 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2160,7 +2160,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 156.21 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
