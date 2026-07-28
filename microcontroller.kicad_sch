@@ -4373,7 +4373,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "0"
 			(at 233.68 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
