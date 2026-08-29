@@ -44,3 +44,12 @@ fp-info-cache
 *.drl
 *.gbrjob
 *.zip
+
+# make build files
+*.mk
+*.o
+*.elf
+*.d
+*.bin
+*.map
+*.hex
