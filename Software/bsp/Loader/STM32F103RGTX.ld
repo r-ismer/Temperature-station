@@ -44,8 +44,10 @@ _Min_Stack_Size = 0x400; /* required amount of stack */
 /* Memories definition */
 MEMORY
 {
-  RAM    (xrw)    : ORIGIN = 0x20000000,   LENGTH = 96K
-  FLASH    (rx)    : ORIGIN = 0x8000000,   LENGTH = 1024K
+  FLASH         (rx)  : ORIGIN = 0x08000000, LENGTH = 0x00100000
+  RAM           (xrw) : ORIGIN = 0x20000000, LENGTH = 0x00012240
+  FRAMEBUFFER_1 (rw)  : ORIGIN = 0x20012240, LENGTH = 0x00002EE0
+  FRAMEBUFFER_2 (rw)  : ORIGIN = 0x20015120, LENGTH = 0x00002EE0
 }
 
 /* Sections */
@@ -175,6 +177,22 @@ SECTIONS
     . = . + _Min_Stack_Size;
     . = ALIGN(8);
   } >RAM
+
+  .framebuffer_1 (NOLOAD) :
+  {
+    . = ALIGN(8);
+    __framebuffer_1_start__ = .;
+    . = . + LENGTH(FRAMEBUFFER_1);
+    __framebuffer_1_end__ = .;
+  } >FRAMEBUFFER_1
+
+  .framebuffer_2 (NOLOAD) :
+  {
+    . = ALIGN(8);
+    __framebuffer_2_start__ = .;
+    . = . + LENGTH(FRAMEBUFFER_2);
+    __framebuffer_2_end__ = .;
+  } >FRAMEBUFFER_2
 
   /* Remove information from the compiler libraries */
   /DISCARD/ :
